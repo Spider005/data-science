@@ -100,10 +100,15 @@ Creating User-Item Matrix, User-User and Item-Item similarity matrices for Movie
 Creating feature and applying ML models to predict the ratings for unseen movies for a user
 The detailed analysis and model creation can be found in the .ipynb file.
 
-Result :
+Resul
+![M_1](https://github.com/user-attachments/assets/7bee12e6-7be4-48a8-8863-6f81521bbe69)
+t :
+
 Some of the test images are given below.
+![M_2](https://github.com/user-attachments/assets/323d2e9c-0f53-45b8-84bd-09edb82db278)
 
 The results from Movie-Movie Similarity is as below:
+![M_3](https://github.com/user-attachments/assets/2ebf7f97-a1a4-4ee9-a1d6-ec3c932b42ad)
 
 test
 
@@ -115,9 +120,13 @@ test
 
 The Feature Importance for predicting ratings is as below:
 
+![M_4](https://github.com/user-attachments/assets/399c8660-5646-4f76-b6da-86e468f9d18e)
+
 test
 
 The results from different ML models are as follows:
+
+![M_5](https://github.com/user-attachments/assets/a4ab99dd-8a3a-4768-8820-93d78041b944)
 
 test
 
