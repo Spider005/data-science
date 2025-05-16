@@ -46,28 +46,6 @@ Combination of both and used now a days .
 
 Uses : word2vec , embedding .
 
-About this project:
-This is a streamlit web application that can recommend various kinds of similar movies based on an user interest. here is a demo,
-
-Click here to run it live on server
-Demo:
-workflow
-
-workflow
-
-workflow
-
-Dataset has been used:
-Dataset link
-Concept used to build the model.pkl file : cosine_similarity
-1 . Cosine Similarity is a metric that allows you to measure the similarity of the documents.
-
-2 . In order to demonstrate cosine similarity function we need vectors. Here vectors are numpy array.
-
-3 . Finally, Once we have vectors, We can call cosine_similarity() by passing both vectors. It will calculate the cosine similarity between these two.
-
-4 . It will be a value between [0,1]. If it is 0 then both vectors are complete different. But in the place of that if it is 1, It will be completely similar.
-
 
 Objectives :
 All entertainment websites or online stores have millions/billions of items. It becomes challenging for the customer to select the right one. At this place, recommender systems come into the picture and help the user to find the right item by minimizing the options.
@@ -83,6 +61,7 @@ Data Collection :
 The dataset has been obtained from Grouplens.
 
 Link : https://grouplens.org/datasets/movielens/20m/
+
 
 This dataset (ml-20m) describes 5-star rating and free-text tagging activity from MovieLens, a movie recommendation service. It contains 20000263 ratings and 465564 tag applications across 27278 movies. These data were created by 138493 users between January 09, 1995 and March 31, 2015. This dataset was generated on October 17, 2016.
 
@@ -102,7 +81,6 @@ The detailed analysis and model creation can be found in the .ipynb file.
 
 Resul
 ![M_1](https://github.com/user-attachments/assets/7bee12e6-7be4-48a8-8863-6f81521bbe69)
-
 
 
 Some of the test images are given below.
@@ -134,14 +112,20 @@ test
 The sample movie recommendation based on Collaborative Filtering is as follows:
 
 test
+*Installation*
 
-Conclusions :
-In this project, we learned the importance of Recommendation Systems, the types of recommender systems being implemented, and how to use matrix factorization to enhance a system.
+Clone this repository.
+Install the required packages using pip:
+pip install -r requirements.txt
 
-We then built a movie recommendation system that considers user-user similarity, movie-movie similarity, global averages and matrix factorization. These concepts can be applied to any other user-item interactions systems.
+*Usage*
 
-We tried generating recommendations based on similarity matrix and Collaborative Filtering techniques.
+To run the Streamlit app, use the following command: streamlit run app.py
 
-We tried to predict the ratings for movies that the user might give based on its past rating behaviours and measure the accuracy using RMSE and MAPE error metrics.
+*Files*
 
-Surely, there is huge scope of improvement and tring out different techniques and ML/DL algorithms.
+app.py: This is the main application file where the Streamlit UI is defined.
+model\\movies.pkl: This file contains the movie data.
+model\\similarity_bert.pkl: This file contains the precomputed cosine similarity matrix.
+Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
