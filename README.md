@@ -102,7 +102,6 @@ The detailed analysis and model creation can be found in the .ipynb file.
 
 Resul
 ![M_1](https://github.com/user-attachments/assets/7bee12e6-7be4-48a8-8863-6f81521bbe69)
-t :
 
 Some of the test images are given below.
 ![M_2](https://github.com/user-attachments/assets/323d2e9c-0f53-45b8-84bd-09edb82db278)
