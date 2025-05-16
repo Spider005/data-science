@@ -125,7 +125,10 @@ To run the Streamlit app, use the following command: streamlit run app.py
 *Files*
 
 app.py: This is the main application file where the Streamlit UI is defined.
+
 model\\movies.pkl: This file contains the movie data.
 model\\similarity_bert.pkl: This file contains the precomputed cosine similarity matrix.
-Contributing
+
+**Contributing**
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
